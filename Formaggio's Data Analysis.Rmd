@@ -1,0 +1,15 @@
+---
+title: "Formaggio's Data Analysis"
+author: "Chris Coats"
+date: "Tuesday, April 14, 2015"
+output: html_document
+---
+
+Chris Paul provides us will daily sales data that we use to give him estimates and data on his business.  
+Strip away all data other than the date for week ending and the sales values themselves. 
+
+Evenings.R and lunches.R are the scripts used to do this analysis.  
+        -The files that get loaded into these scripts must be named evenings.csv and lunches.csv
+
+We also take the number sold per item from quickbooks to do confidence estimates that will 
+allow Chris to make a prep schedule. This script is called Prep.R and the files used for this script have the prefix of "Items Sold"
